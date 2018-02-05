@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lcc.mybluetooth.MainActivity">
+
+    <TextView
+        android:id="@+id/blue_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蓝牙的状态:" />
+
+    <TextView
+        android:id="@+id/blue_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/blue_tip" />
+
+    <TextView
+        android:id="@+id/button_control"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:background="#eeeeee"
+        android:layout_below="@+id/blue_tip"
+        tools:text="打开" />
+
+</RelativeLayout>
