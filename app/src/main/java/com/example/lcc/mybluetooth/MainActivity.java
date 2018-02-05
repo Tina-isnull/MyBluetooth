@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     mBlue.enable();
                     initView();
+
 //                    //打开蓝牙的另一种方式
 //                    Intent intent=new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
 //                    startActivityForResult(intent,REQUEST_CODE);
